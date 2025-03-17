@@ -15,6 +15,7 @@ public class CompanyApp {
 		print(company);
 
 		company.offboard(manager);
+
 		print(company);
 	}
 
