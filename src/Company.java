@@ -13,15 +13,15 @@ public class Company {
 	}
 	
 	public void printSalaries() {
-		for (Employee m : employees) {
-			System.out.println(m.getName() + ": " + m.getAnnualSalary());
+		for (Employee e : employees) {
+			System.out.println(e.getName() + ": " + e.getAnnualSalary());
 		}
 	}
 	
 	public double getTotalSalary() {
 		double sum = 0;
-		for (Employee m : employees) {
-			sum += m.getAnnualSalary();
+		for (Employee e : employees) {
+			sum += e.getAnnualSalary();
 		}
 		return sum;
 	}
